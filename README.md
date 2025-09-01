@@ -16,8 +16,6 @@ http://localhost:3000/getOrderByName/%231105
 
 `%23` refers to # but decoded
 
-3. took a bit of time because trying to learn the structure and also how chaining different stuff works
-
 ### To get started
 
 1. Clone the repository
