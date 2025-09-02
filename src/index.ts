@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 import express, { type Request, type Response } from "express";
 import {
   cacheOrdersToDatabase,
@@ -5,11 +7,9 @@ import {
   getTimestampComparison,
 } from "./cacheToDatabase";
 import { getOrderByName } from "./getOrderByName";
-import dotenv from "dotenv";
+
 const app = express();
 const port = 3000;
-
-dotenv.config();
 
 // Global variables for pagination
 let paginationInterval: NodeJS.Timeout;
